@@ -1,0 +1,67 @@
+body {
+  background-color: #08d9d6;
+}
+.hero {
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #252a34;
+  font-size: 5rem;
+}
+
+.hero h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  color: #252a34;
+}
+.bio {
+  height: 100vh;
+  text-align: center;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+}
+
+.bio h2 {
+  color: #eaeaea;
+  font-size: 3rem;
+  font-family: "Playfair Display", serif;
+}
+
+.biop {
+  color: #252a34;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+
+.containerbio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+@media (max-width: 641px) {
+  .containerbio {
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.projects {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.abcd {
+  font-size: 1.5rem;
+}
